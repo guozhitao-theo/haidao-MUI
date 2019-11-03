@@ -1,0 +1,73 @@
+/* 头部css封装 开始*/
+.haidao-header{
+    width: 10rem;
+    height: 2rem;
+    background: #eeeeee;
+}
+.haidao-header-top{
+    height: .625rem;
+}
+.haidao-header-body{
+    height: 1.375rem;
+    background: #f8f8f8;
+    line-height: 1.375rem;
+    text-align: center;
+}
+.haidao-header-listsico{
+    padding:0 .234375rem ;
+}
+.haidao-header-backico,.haidao-header-listsico{
+    font-size: .554688rem;
+    padding-top: .4575rem;
+}
+.haidao-header-title{
+    font-size: .554688rem;
+}
+/* 头部css封装结束 */
+
+
+/* 底部封装开始 */
+/* 封装底部样式  (1)底部为logo图片 */
+.haidao-footer-container1{
+    width: 100%;
+    height: 1.6875rem;
+    background: #eeeeee;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+.haidao-footer-box{
+    width: 2.95625rem;
+    height: 1.25rem;
+    font-size: 0;
+    border: 1px solid #ffff22;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 5px;
+}
+.haidao-footer-logo,.haidao-footer-brand{
+    display: inline-block;
+}
+.haidao-footer-logo img{
+    width: 50px;
+    max-width: .91875rem;
+    max-height: .91875rem;
+}
+.haidao-footer-brand{
+    padding-left: .25rem;
+}
+.haidao-footer-brand p{
+    font-size: .39rem;
+    line-height: 0.5225rem;
+}
+.haidao-footer-message{
+    float: left;
+    font-size: .20875rem;
+    line-height: 0.3225rem;
+    margin-top: -10px;
+}
+/* 封装底部样式  (1)完成 */
+
+/* 封装底部样式  (2) 导航按钮 开始 */
